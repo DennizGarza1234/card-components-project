@@ -56,16 +56,16 @@ Join our community of developers creating universal apps.
 
 ### Task                                         | Estimated Hours
 ### -------------------------------------------- | ---------------
-### Initialize new Expo project                   | 0.5
-### Create src/ and component folders             | 0.2
-### Create Card1.js & Card1Styles.js skeleton     | 0.5
-### Add Card1 component to App.js                 | 0.3
-### Test Card1 in Expo                             | 0.3
-### Initialize Git & create branches               | 0.3
-### Force push main to GitHub                      | 0.1
-### Push feature/card-1 branch                     | 0.1
-### Make tiny README change to allow Draft PR     | 0.1
-### Open Draft Pull Request for Card1             | 0.2
+### Initialize new Expo project                  | 0.5
+### Create src/ and component folders            | 0.2
+### Create Card1.js & Card1Styles.js skeleton    | 0.5
+### Add Card1 component to App.js                | 0.3
+### Test Card1 in Expo                           | 0.3
+### Initialize Git & create branches             | 0.3
+### Force push main to GitHub                    | 0.1
+### Push feature/card-1 branch                   | 0.1
+### Make tiny README change to allow Draft PR    | 0.1
+### Open Draft Pull Request for Card1            | 0.2
 ### -------------------------------------------- | ---------------
 ### Total                                        | 2.6
 
