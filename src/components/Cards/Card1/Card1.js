@@ -38,3 +38,4 @@ const styles = StyleSheet.create({
   cardButton: { padding: 8, backgroundColor: '#007bff', borderRadius: 4 },
   cardButtonText: { color: '#fff', fontWeight: 'bold' },
 });
+// TODO: Style Card1 according to Figma design
