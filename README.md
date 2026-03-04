@@ -69,9 +69,7 @@ Join our community of developers creating universal apps.
 ### -------------------------------------------- | ---------------
 ### Total                                        | 2.6
 
-## ==========================
 ## Assigned Issue(s) Update
-## ==========================
 
 ## Link(s) to Issue(s): 
 [https://github.com/SeattleColleges/NSC-Dev-Expo-Site/issues/23]
@@ -90,16 +88,12 @@ Prepared the branch for version control and collaboration.
 - Project set up to allow future cards (Card2–Card5) to reuse the same folder/component structure.
 - Minor README adjustments enabled Draft Pull Request workflow.
 
-## ==========================
 ## Branch Link(s)
-## ==========================
 
 ## feature/card-1 branch:
 https://github.com/DennizGarza1234/card-components-project/tree/feature/card-1
 
-## ==========================
 ## Draft Pull Request(s) Update
-## ==========================
 
 ## Link(s) to Draft Pull Request(s):
 [https://github.com/DennizGarza1234/card-components-project/pull/1#issue-4023478467]
