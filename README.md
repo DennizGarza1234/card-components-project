@@ -106,7 +106,7 @@ Join our community of developers creating universal apps.
 # ==========================
 
 # Link(s) to Draft Pull Request(s):
-# https://github.com/DennizGarza1234/card-components-project/pull/1
+# [https://github.com/DennizGarza1234/card-components-project/pull/1#issue-4023478467]
 
 # Progress Summary:
 # Draft PR created to track Card1 component development.
