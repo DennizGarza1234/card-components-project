@@ -159,12 +159,12 @@ Merged the branch into main after reviewing and resolving README conflicts.
 ## Branch Link(s)
 
 ## feature/card-1 branch:
-https://github.com/YourRepo/YourProject/tree/feature/card-1
+
 
 ## Pull Request(s) Update
 
 ## Link(s) to Pull Request(s):
-[https://github.com/YourRepo/YourProject/pull/45]
+[https://github.com/DennizGarza1234/card-components-project/pull/2#issue-4025257378]
 
 ## Progress Summary:
 Pull request included the Card component feature, README updates, and merge conflict resolution.
