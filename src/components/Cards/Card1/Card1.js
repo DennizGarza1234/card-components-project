@@ -1,4 +1,6 @@
-import { Text, View } from "react-native";
+import React from 'react';
+import { Text, View } from 'react-native';
+import styles from './Card1Styles';
 
 const Card1 = () => {
   return (

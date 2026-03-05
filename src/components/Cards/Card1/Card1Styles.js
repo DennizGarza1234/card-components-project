@@ -1,102 +1,40 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
   container: {
-    width: 625,
-    backgroundColor: "#D2D2D2",
-    alignSelf: "center",
+    margin: 10,
+    padding: 10,
+    backgroundColor: '#fff',
+    borderRadius: 8,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 5,
+    elevation: 3,
   },
-
-  topBar: {
-    height: 109,
-    backgroundColor: "#303030",
-    justifyContent: "center",
-    alignItems: "center",
-  },
-
-  logoText: {
-    color: "#E8E8E8",
-    fontSize: 16,
-  },
-
   title: {
-    color: "#E8E8E8",
-    fontSize: 32,
-    fontWeight: "500",
+    fontSize: 18,
+    fontWeight: 'bold',
+    marginBottom: 5,
   },
-
-  imageSection: {
-    height: 300,
-    justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: "#BFBFBF",
+  description: {
+    fontSize: 14,
+    color: '#555',
   },
-
-  imagePlaceholder: {
-    textAlign: "center",
-    padding: 20,
-  },
-
-  middleBar: {
-    height: 48,
-    backgroundColor: "#303030",
-    justifyContent: "center",
-    alignItems: "center",
-  },
-
-  clientText: {
-    color: "#E2E2E2",
-    fontSize: 16,
-    fontStyle: "italic",
-  },
-
-  contentSection: {
-    padding: 20,
-    alignItems: "center",
-  },
-
-  headerText: {
-    fontSize: 24,
-    fontWeight: "500",
+  image: {
+    width: '100%',
+    height: 150,
+    borderRadius: 8,
     marginBottom: 10,
   },
-
-  bodyText: {
-    fontSize: 16,
-    textAlign: "center",
-    marginBottom: 20,
+  button: {
+    padding: 10,
+    backgroundColor: '#007AFF',
+    borderRadius: 5,
+    alignItems: 'center',
   },
-
-  statsRow: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    width: "100%",
-  },
-
-  statBox: {
-    alignItems: "center",
-    flex: 1,
-  },
-
-  statNumber: {
-    fontSize: 28,
-    fontWeight: "600",
-  },
-
-  statLabel: {
-    fontSize: 12,
-  },
-
-  bottomBar: {
-    height: 68,
-    backgroundColor: "#303030",
-    justifyContent: "center",
-    alignItems: "center",
-  },
-
   buttonText: {
-    color: "#DDD1D1",
-    fontSize: 20,
-    fontWeight: "600",
+    color: '#fff',
+    fontWeight: 'bold',
   },
 });
