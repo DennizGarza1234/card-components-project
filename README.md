@@ -1,4 +1,4 @@
-# Welcome to your Expo app 👋
+# Welcome to your Expo app
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
@@ -117,7 +117,76 @@ and initial integration into the Expo app.
 ---
 
 ## Update Development Week 7
+### Navigate to your project root
+cd /path/to/your/project  # change to your project folder
 
+### Append Week 7 update to README.md
+cat << 'EOF' >> README.md
+
+## Card Component Development Time Table
+
+### Task                                         | Estimated Hours
+### -------------------------------------------- | ---------------
+### Implement Card component feature             | 1.5
+### Create feature/card-1 branch                 | 0.2
+### Push branch to GitHub                         | 0.1
+### Open Pull Request for Card component        | 0.2
+### Update README.md and resolve merge conflicts | 0.5
+### Review other PRs                              | 0.5
+### -------------------------------------------- | ---------------
+### Total                                        | 3.0
+
+## Assigned Issue(s) Update
+
+## Link(s) to Issue(s): 
+[https://github.com/SeattleColleges/NSC-Dev-Expo-Site/issues/23]
+
+## Progress Summary:
+Implemented a reusable Card component with customizable title, description, and image slots.
+Applied basic hover and click styling and responsive layout adjustments.
+Created a feature branch, pushed to GitHub, and opened a Pull Request.
+Merged the branch into main after reviewing and resolving README conflicts.
+
+## Key Learnings:
+- Learned to structure React components for modularity and reusability.
+- Gained experience managing branches, pull requests, and merge conflicts.
+- Improved understanding of documenting weekly development updates.
+
+## Additional Information:
+- Branch deleted after merge to keep repository clean.
+- Project now ready for next week’s development tasks.
+
+## Branch Link(s)
+
+## feature/card-1 branch:
+https://github.com/YourRepo/YourProject/tree/feature/card-1
+
+## Pull Request(s) Update
+
+## Link(s) to Pull Request(s):
+[https://github.com/YourRepo/YourProject/pull/45]
+
+## Progress Summary:
+Pull request included the Card component feature, README updates, and merge conflict resolution.
+Successfully merged into main branch.
+
+## Key Learnings:
+- Learned to maintain clean commit history and clear PR descriptions.
+- Gained experience with GitHub review workflows and collaboration practices.
+
+## Additional Information:
+- No blockers occurred during development.
+- Collaboration and code review ensured feature quality and readiness.
+EOF
+
+# Stage the changes
+git add README.md
+
+# Commit the changes
+git commit -m "Update README: Add Week 7 development summary"
+
+# Push to GitHub
+git push origin main
 
 ---
 
