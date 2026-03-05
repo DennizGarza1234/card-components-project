@@ -1,0 +1,18 @@
+import { StyleSheet } from 'react-native';
+
+export default StyleSheet.create({
+  container: {
+    margin: 10,
+    padding: 5,
+    backgroundColor: '#f2f2f2',
+    borderRadius: 8,
+  },
+  input: {
+    height: 40,
+    paddingHorizontal: 10,
+    borderRadius: 5,
+    backgroundColor: '#fff',
+    borderWidth: 1,
+    borderColor: '#ccc',
+  },
+});

@@ -1,0 +1,16 @@
+import React from 'react';
+import { TextInput, View } from 'react-native';
+import styles from './SearchBarStyles';
+
+export default function SearchBar({ searchText, onChangeText }) {
+    return (
+        <View style={styles.container}>
+            <TextInput
+                style={styles.input}
+                placeholder='Search cards...'
+                value={searchText}
+                onChangeText={onChangeText}
+            />
+        </View>
+    );
+}
