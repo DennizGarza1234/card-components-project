@@ -159,7 +159,8 @@ Merged the branch into main after reviewing and resolving README conflicts.
 ## Branch Link(s)
 
 ## feature/card-1 branch:
-
+Was deleted so we only have the main branch:
+[https://github.com/DennizGarza1234/card-components-project.git]
 
 ## Pull Request(s) Update
 
