@@ -1,41 +1,64 @@
-import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { Text, View } from "react-native";
 
-export default function Card1({ imageSrc, title, description, buttons }) {
+const Card1 = () => {
   return (
-    <View style={styles.cardContainer}>
-      <Image source={imageSrc} style={styles.cardImage} />
-      <View style={styles.cardContent}>
-        <Text style={styles.cardTitle}>{title}</Text>
-        <Text style={styles.cardDescription}>{description}</Text>
+    <View style={styles.container}>
+      
+      {/* Top Bar */}
+      <View style={styles.topBar}>
+        <Text style={styles.logoText}>Logo</Text>
+        <Text style={styles.title}>Belinda’s Closet</Text>
       </View>
-      <View style={styles.cardFooter}>
-        {buttons.map((btn, index) => (
-          <TouchableOpacity key={index} onPress={btn.onPress} style={styles.cardButton}>
-            <Text style={styles.cardButtonText}>{btn.label}</Text>
-          </TouchableOpacity>
-        ))}
+
+      {/* Placeholder Image Section */}
+      <View style={styles.imageSection}>
+        <Text style={styles.imagePlaceholder}>
+          Project screen shot of home page of primary feature
+        </Text>
       </View>
+
+      {/* Middle Bar */}
+      <View style={styles.middleBar}>
+        <Text style={styles.clientText}>
+          Client: North Seattle College - Non Profit
+        </Text>
+      </View>
+
+      {/* Content Section */}
+      <View style={styles.contentSection}>
+        <Text style={styles.headerText}>Dressing our community</Text>
+
+        <Text style={styles.bodyText}>
+          Providing North Seattle College students with free clothing.
+          Making sure wardrobe is not one of their problems.
+        </Text>
+
+        {/* Marketing Stats */}
+        <View style={styles.statsRow}>
+          <View style={styles.statBox}>
+            <Text style={styles.statNumber}>150+</Text>
+            <Text style={styles.statLabel}>Students Impacted</Text>
+          </View>
+
+          <View style={styles.statBox}>
+            <Text style={styles.statNumber}>150+</Text>
+            <Text style={styles.statLabel}>Students Impacted</Text>
+          </View>
+
+          <View style={styles.statBox}>
+            <Text style={styles.statNumber}>150+</Text>
+            <Text style={styles.statLabel}>Students Impacted</Text>
+          </View>
+        </View>
+      </View>
+
+      {/* Bottom Bar */}
+      <View style={styles.bottomBar}>
+        <Text style={styles.buttonText}>See project details</Text>
+      </View>
+
     </View>
   );
-}
+};
 
-const styles = StyleSheet.create({
-  cardContainer: {
-    padding: 16,
-    backgroundColor: '#fff',
-    borderRadius: 8,
-    margin: 8,
-    shadowColor: '#000',
-    shadowOpacity: 0.1,
-    shadowRadius: 5,
-    elevation: 3,
-  },
-  cardImage: { width: '100%', height: 150, borderRadius: 8 },
-  cardContent: { marginVertical: 8 },
-  cardTitle: { fontSize: 18, fontWeight: 'bold' },
-  cardDescription: { fontSize: 14, color: '#555' },
-  cardFooter: { flexDirection: 'row', justifyContent: 'space-around', marginTop: 8 },
-  cardButton: { padding: 8, backgroundColor: '#007bff', borderRadius: 4 },
-  cardButtonText: { color: '#fff', fontWeight: 'bold' },
-});
-// TODO: Style Card1 according to Figma design
+export default Card1;
