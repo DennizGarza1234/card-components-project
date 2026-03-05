@@ -192,3 +192,76 @@ git push origin main
 ---
 
 ## Update Development Week 8
+## Step 1: Make sure you are on the feature/search-profile branch
+git checkout feature/search-profile
+
+## Step 2: Open or create a markdown file for week 8 update (e.g., DEV_WEEK_08.md)
+cat <<EOT > DEV_WEEK_08.md
+
+## Search + Card1 Development Time Table
+
+### Task                                         | Estimated Hours
+### -------------------------------------------- | ---------------
+### Create feature/search-profile branch         | 0.2
+### Create src/components/Search folder          | 0.1
+### Create SearchBar.js & SearchBarStyles.js     | 0.5
+### Integrate Card1 component into App.js        | 0.5
+### Set up sample card data & search filtering   | 0.5
+### Test Search + Card functionality in Expo     | 0.5
+### Push feature/search-profile branch           | 0.1
+### Open Pull Request for Search + Card1        | 0.2
+### -------------------------------------------- | ---------------
+### Total                                        | 2.6
+
+## Assigned Issue(s) Update
+
+## Link(s) to Issue(s): 
+[https://github.com/SeattleColleges/NSC-Dev-Expo-Site/issues/23]
+
+## Progress Summary:
+- Created SearchBar component for filtering cards.  
+- Updated Card1 component integration in App.js.  
+- Added sample card data representing “Belinda’s Closet” projects.  
+- Connected SearchBar input to filter displayed cards dynamically.  
+- Tested full functionality in Expo to ensure cards render and search works as expected.  
+
+## Key Learnings:
+- Learned how to connect component state to dynamic filtering.  
+- Reinforced Expo component integration and folder structure organization.  
+- Practiced creating feature branches and managing pull requests.  
+
+## Additional Information:
+- Setup allows future addition of more cards or other filtering criteria.  
+- SearchBar and Card1 component are ready for future styling or enhancements.  
+
+## Branch Link(s)
+
+## feature/search-profile branch:
+[https://github.com/DennizGarza1234/card-components-project/tree/feature/search-profile]
+
+## Pull Request(s) Update
+
+## Link(s) to Pull Request(s):
+[https://github.com/DennizGarza1234/card-components-project/pull/3#issue-4025403048]
+
+## Progress Summary:
+- PR created to track development of Search + Card1 feature.  
+- Includes all component files, sample card data, and search filtering functionality.  
+
+## Key Learnings:
+- Gained experience connecting multiple components with shared state.  
+- Learned to manage feature branches and PR workflow effectively.  
+
+## Additional Information:
+- Future commits (styling, new cards, additional filters) will automatically update the PR.  
+- Ready for review and eventual merge into main.
+EOT
+
+# Step 3: Stage the new README / DEV_WEEK_08.md
+git add DEV_WEEK_08.md
+
+# Step 4: Commit the update
+git commit -m "Week 8: Add development update for Search + Card1 feature"
+
+# Step 5: Push the changes to the feature branch
+git push origin feature/search-profile
