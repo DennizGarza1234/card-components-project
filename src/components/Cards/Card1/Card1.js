@@ -54,6 +54,21 @@ const Card1 = () => {
         </View>
       </View>
 
+{/* Navigation Controls */}
+<View style={styles.navigationRow}>
+  
+  <Text style={styles.arrow}>◀</Text>
+
+  <View style={styles.dotsContainer}>
+    <View style={styles.dotActive}></View>
+    <View style={styles.dot}></View>
+    <View style={styles.dot}></View>
+  </View>
+
+  <Text style={styles.arrow}>▶</Text>
+
+</View>
+
       {/* Bottom Bar */}
       <View style={styles.bottomBar}>
         <Text style={styles.buttonText}>See project details</Text>
