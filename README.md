@@ -265,3 +265,73 @@ git commit -m "Week 8: Add development update for Search + Card1 feature"
 
 # Step 5: Push the changes to the feature branch
 git push origin feature/search-profile
+
+---
+
+## Update Development Week 9
+## Card & Search/Profile Development Time Table
+
+### Task                                         | Estimated Hours
+### -------------------------------------------- | ---------------
+### Continue Card1 component styling             | 0.5
+### Integrate Search component skeleton         | 0.5
+### Integrate Profile component skeleton        | 0.5
+### Connect Search results to Profile display   | 0.7
+### Test Search & Profile components in Expo    | 0.5
+### Update navigation & UI spacing              | 0.4
+### Commit changes to feature/card-1            | 0.1
+### Commit changes to feature/search-profile    | 0.2
+### Push branches to GitHub                      | 0.1
+### Open Pull Request for feature/search-profile| 0.2
+### -------------------------------------------- | ---------------
+### Total                                        | 3.7
+
+## Assigned Issue(s) Update
+
+## Link(s) to Issue(s): 
+[https://github.com/SeattleColleges/NSC-Dev-Expo-Site/issues/23]
+
+## Progress Summary:
+- Updated Card1 component with refined layout and navigation spacing.
+- Implemented Search component skeleton for user queries.
+- Implemented Profile component skeleton for displaying user info.
+- Connected Search results dynamically to Profile cards.
+- Tested integration in Expo for both desktop and mobile layouts.
+- Prepared branches for version control and collaboration.
+
+## Key Learnings:
+- Practiced connecting multiple components in React Native (Search → Profile → Card1).
+- Learned to manage multiple feature branches simultaneously.
+- Reinforced testing in Expo for real-time updates and responsiveness.
+
+## Additional Information:
+- Search and Profile components are modular for reuse in future features.
+- Card1 enhancements maintain consistency with new components.
+- Branch workflow ensures clear separation between UI, search logic, and profile logic.
+
+## Branch Link(s)
+
+## feature/card-1 branch:
+[https://github.com/DennizGarza1234/card-components-project/tree/feature/card-1]
+
+## feature/search-profile branch:
+[https://github.com/DennizGarza1234/card-components-project/tree/feature/search-profile]
+
+## Pull Request(s) Update
+
+## Link(s) to Pull Request(s):
+[https://github.com/DennizGarza1234/card-components-project/pull/4#issue-4039551681]
+
+## Progress Summary:
+- PR tracks development of Card1, Search, and Profile components.
+- Includes updated layout, navigation spacing, and integration with Expo.
+- Both branches are synchronized for collaborative development.
+
+## Key Learnings:
+- Learned to manage multiple branches and PRs effectively.
+- Learned best practices for incremental commits to support PR workflow.
+- Practiced linking components and testing interactions in Expo.
+
+## Additional Information:
+- Future updates (styling, component enhancements) will continue to push to these branches.
+- PR provides a central reference for weekly development hours and collaboration readiness.
